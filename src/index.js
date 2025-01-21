@@ -5,6 +5,9 @@ class heroi {
         this.tipo = tipo
         this.ataque = ataque
     }
+    if(this.tipo == "Guerreiro"){
+        this.ataque = "usou espada"
+    }
     atacar(){
         console.log(`${this.nome} atacou ${this.ataque}`)
     }
