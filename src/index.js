@@ -8,7 +8,7 @@ class heroi {
         ataque = "usou espada"
     }
     atacar(){
-        console.log(`${this.nome} atacou ${this.ataque}`)
+        console.log(`${this.nome} atacou ${ataque}`)
     }
 }
 
