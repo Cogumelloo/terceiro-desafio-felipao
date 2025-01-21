@@ -13,4 +13,4 @@ class heroi {
     }
 }
 
-let meuHeroi = new heroi("Cogumelo", 25, this.tipo(0))
+let meuHeroi = new heroi("Cogumelo", 25, tipo(0))
