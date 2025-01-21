@@ -5,6 +5,7 @@ class heroi {
         this.tipo = tipo
     }
     if(tipo = "Guerreiro"){
+        let ataque = ""
         ataque = "usou espada"
     }
     atacar(){
