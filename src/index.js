@@ -1,11 +1,11 @@
 class heroi {
-    constructor (nome, idade, tipo) {
+    constructor (nome, idade, tipo, ataque) {
         this.nome = nome;
         this.idade = idade;
         this.tipo = tipo;
-        this.ataque
+        this.ataque = ataque;
     }
-    atacar(){
+    atacar(ataque){
         if(tipo == "Guerreiro"){
             ataque = "usando espada"
         }else if (tipo == "Mago"){
