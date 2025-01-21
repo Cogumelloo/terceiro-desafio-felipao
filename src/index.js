@@ -6,13 +6,13 @@ class heroi {
         this.ataque = ataque;
     }
     atacar(ataque){
-        if(tipo == "Guerreiro"){
+        if(tipo === "Guerreiro"){
             ataque = "usando espada"
-        }else if (tipo == "Mago"){
+        }else if (tipo === "Mago"){
             ataque = "usando magia"
-        }else if (tipo == monge){
+        }else if (tipo === monge){
             ataque = "usando artes marciais"
-        }else if (tipo == ninja){
+        }else if (tipo === ninja){
             ataque = "usando shuriken"
         }
     }
