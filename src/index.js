@@ -14,3 +14,6 @@ class heroi {
 }
 
 let meuHeroi = new heroi("Cogumelo", 25, "Guerreiro", "espada")
+
+meuHeroi.atacar()
+meuHeroi.status()
