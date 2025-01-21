@@ -3,14 +3,14 @@ class heroi {
         this.nome = nome;
         this.idade = idade;
         this.tipo = tipo;
+        this.ataque = ataque;
     }
-    ataque(){
-        let ataque = ""
+    atacar(){
         if(tipo === "Guerreiro"){
-            ataque = "usando espada"
+            this.ataque = "usando espada"
         }
     }
 }
 
 let meuHeroi = new heroi("Cogumelo", 25, "Guerreiro")
-console.log(`${meuHeroi.nome} atacou ${heroi.ataque}`)
+console.log(`${meuHeroi.nome} atacou ${this.ataque}`)
