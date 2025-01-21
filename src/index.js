@@ -9,5 +9,5 @@ class heroi {
         console.log(`${this.nome} atacou ${this.ataque}`)
     }
 }
-
+heroi.atacar()
 let meuHeroi = new heroi("Cogumelo", 25, "Guerreiro")
