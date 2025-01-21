@@ -3,17 +3,11 @@ class heroi {
         this.nome = nome;
         this.idade = idade;
         this.tipo = tipo;
-        this.ataque = ataque;
     }
-    atacar(ataque){
+    ataque(){
+        let ataque = ""
         if(tipo === "Guerreiro"){
             ataque = "usando espada"
-        }else if (tipo === "Mago"){
-            ataque = "usando magia"
-        }else if (tipo === monge){
-            ataque = "usando artes marciais"
-        }else if (tipo === ninja){
-            ataque = "usando shuriken"
         }
     }
 }
