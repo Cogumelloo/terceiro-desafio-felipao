@@ -6,12 +6,8 @@ class heroi {
         this.ataque = ataque
     }
     atacar(){
-        if(this.tipo === "Guerreiro"){
-            this.ataque = "usou espada"
-        }
+        console.log(`${this.nome} atacou ${this.ataque}`)
     }
 }
 
 let meuHeroi = new heroi("Cogumelo", 25, "Guerreiro")
-meuHeroi.atacar()
-console.log(`${meuHeroi.nome} atacou ${this.ataque}`)
