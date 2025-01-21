@@ -19,4 +19,4 @@ class heroi {
 }
 
 let meuHeroi = new heroi("Cogumelo", 25, "Guerreiro")
-console.log(`${meuHeroi.nome} atacou ${meuHeroi.tipo}`)
+console.log(`${meuHeroi.nome} atacou ${heroi.ataque}`)
