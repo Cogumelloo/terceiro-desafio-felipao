@@ -7,7 +7,7 @@ class heroi {
     }
     atacar(){
         if(this.tipo === "Guerreiro"){
-            ataque = "usou espada"
+            this.ataque = "usou espada"
         }
     }
 }
