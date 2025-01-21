@@ -6,7 +6,7 @@ class heroi {
         this.ataque = ataque // espada, magia, shuriken e artes marciais
     }
     atacar(){
-        console.log(`O ${this.nome} atacou usando ${ataque}`)
+        console.log(`O ${this.nome} atacou usando ${this.ataque}`)
     }
     status(){
         console.log(`O seu nome é ${this.nome}, possui ${this.idade} anos e é da classe ${this.tipo}`)
