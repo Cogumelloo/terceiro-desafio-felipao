@@ -14,5 +14,3 @@ class heroi {
 }
 
 let meuHeroi = new heroi("Cogumelo", 25, "Guerreiro")
-
-meuHeroi.atacar()
